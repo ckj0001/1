@@ -1,0 +1,1657 @@
+C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe "-javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\idea_rt.jar=63269:D:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\java\test1\target\classes;C:\Users\13102\.m2\repository\org\openjdk\jmh\jmh-core\1.35\jmh-core-1.35.jar;C:\Users\13102\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\13102\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar org.openjdk.jmh.Main "test2.GameOfLifeBenchmark.*"
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 1)
+
+# Run progress: 0.00% complete, ETA 01:33:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.004 ops/ms
+# Warmup Iteration   2: 0.004 ops/ms
+Iteration   1: 0.003 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.004 ops/ms
+Iteration   5: 0.004 ops/ms
+
+# Run progress: 1.25% complete, ETA 01:34:20
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.004 ops/ms
+# Warmup Iteration   2: 0.004 ops/ms
+Iteration   1: 0.004 ops/ms
+Iteration   2: 0.004 ops/ms
+Iteration   3: 0.004 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.003 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.002, 0.003, 0.004), stdev = 0.001
+  CI (99.9%): [0.002, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 2)
+
+# Run progress: 2.50% complete, ETA 01:32:59
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.004 ops/ms
+# Warmup Iteration   2: 0.004 ops/ms
+Iteration   1: 0.004 ops/ms
+Iteration   2: 0.004 ops/ms
+Iteration   3: 0.004 ops/ms
+Iteration   4: 0.004 ops/ms
+Iteration   5: 0.004 ops/ms
+
+# Run progress: 3.75% complete, ETA 01:31:35
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.004 ops/ms
+# Warmup Iteration   2: 0.004 ops/ms
+Iteration   1: 0.004 ops/ms
+Iteration   2: 0.004 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.003 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.003 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.002, 0.003, 0.004), stdev = 0.001
+  CI (99.9%): [0.002, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 3)
+
+# Run progress: 5.00% complete, ETA 01:30:36
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.003 ops/ms
+# Warmup Iteration   2: 0.003 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.003 ops/ms
+
+# Run progress: 6.25% complete, ETA 01:29:42
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.003 ops/ms
+# Warmup Iteration   2: 0.003 ops/ms
+Iteration   1: 0.003 ops/ms
+Iteration   2: 0.003 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.003 ops/ms
+Iteration   5: 0.003 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.003 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.001, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 4)
+
+# Run progress: 7.50% complete, ETA 01:28:26
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.003 ops/ms
+# Warmup Iteration   2: 0.003 ops/ms
+Iteration   1: 0.003 ops/ms
+Iteration   2: 0.003 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.003 ops/ms
+Iteration   5: 0.003 ops/ms
+
+# Run progress: 8.75% complete, ETA 01:27:11
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.003 ops/ms
+# Warmup Iteration   2: 0.003 ops/ms
+Iteration   1: 0.003 ops/ms
+Iteration   2: 0.003 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.003 ops/ms
+Iteration   5: 0.003 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.003 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.003, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.003, 0.003] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 5)
+
+# Run progress: 10.00% complete, ETA 01:26:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 11.25% complete, ETA 01:24:59
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.002 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.001, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 6)
+
+# Run progress: 12.50% complete, ETA 01:24:02
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+# Run progress: 13.75% complete, ETA 01:22:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.002 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.002 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.001, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 7)
+
+# Run progress: 15.00% complete, ETA 01:21:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+# Run progress: 16.25% complete, ETA 01:20:34
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.002 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 8)
+
+# Run progress: 17.50% complete, ETA 01:19:17
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+# Run progress: 18.75% complete, ETA 01:18:08
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.002 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+Iteration   1: 0.002 ops/ms
+Iteration   2: 0.002 ops/ms
+Iteration   3: 0.002 ops/ms
+Iteration   4: 0.002 ops/ms
+Iteration   5: 0.002 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.002 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 9)
+
+# Run progress: 20.00% complete, ETA 01:16:55
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 21.25% complete, ETA 01:15:45
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 10)
+
+# Run progress: 22.50% complete, ETA 01:14:34
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 23.75% complete, ETA 01:13:26
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 11)
+
+# Run progress: 25.00% complete, ETA 01:12:18
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 26.25% complete, ETA 01:11:10
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 12)
+
+# Run progress: 27.50% complete, ETA 01:10:03
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 28.75% complete, ETA 01:08:57
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 13)
+
+# Run progress: 30.00% complete, ETA 01:07:46
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 31.25% complete, ETA 01:06:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 14)
+
+# Run progress: 32.50% complete, ETA 01:05:25
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 33.75% complete, ETA 01:04:10
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 15)
+
+# Run progress: 35.00% complete, ETA 01:02:58
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 36.25% complete, ETA 01:01:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 16)
+
+# Run progress: 37.50% complete, ETA 01:00:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 38.75% complete, ETA 00:59:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 17)
+
+# Run progress: 40.00% complete, ETA 00:58:23
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 41.25% complete, ETA 00:57:15
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 18)
+
+# Run progress: 42.50% complete, ETA 00:56:07
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 43.75% complete, ETA 00:54:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 19)
+
+# Run progress: 45.00% complete, ETA 00:53:39
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 46.25% complete, ETA 00:52:30
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 20)
+
+# Run progress: 47.50% complete, ETA 00:51:21
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+# Run progress: 48.75% complete, ETA 00:50:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.001 ops/ms
+Iteration   1: 0.001 ops/ms
+Iteration   2: 0.001 ops/ms
+Iteration   3: 0.001 ops/ms
+Iteration   4: 0.001 ops/ms
+Iteration   5: 0.001 ops/ms
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  0.001 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 1)
+
+# Run progress: 50.00% complete, ETA 00:49:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 251.012 ms/op
+# Warmup Iteration   2: 240.487 ms/op
+Iteration   1: 230.370 ms/op
+Iteration   2: 240.913 ms/op
+Iteration   3: 240.685 ms/op
+Iteration   4: 240.884 ms/op
+Iteration   5: 245.202 ms/op
+
+# Run progress: 51.25% complete, ETA 00:47:45
+# Fork: 2 of 2
+# Warmup Iteration   1: 253.286 ms/op
+# Warmup Iteration   2: 247.619 ms/op
+Iteration   1: 244.334 ms/op
+Iteration   2: 249.419 ms/op
+Iteration   3: 253.883 ms/op
+Iteration   4: 251.788 ms/op
+Iteration   5: 265.364 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  246.284 ±(99.9%) 14.338 ms/op [Average]
+  (min, avg, max) = (230.370, 246.284, 265.364), stdev = 9.484
+  CI (99.9%): [231.946, 260.623] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 2)
+
+# Run progress: 52.50% complete, ETA 00:46:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 277.196 ms/op
+# Warmup Iteration   2: 430.319 ms/op
+Iteration   1: 510.635 ms/op
+Iteration   2: 514.913 ms/op
+Iteration   3: 503.833 ms/op
+Iteration   4: 530.812 ms/op
+Iteration   5: 536.887 ms/op
+
+# Run progress: 53.75% complete, ETA 00:45:14
+# Fork: 2 of 2
+# Warmup Iteration   1: 319.663 ms/op
+# Warmup Iteration   2: 567.072 ms/op
+Iteration   1: 573.046 ms/op
+Iteration   2: 564.233 ms/op
+Iteration   3: 551.573 ms/op
+Iteration   4: 546.289 ms/op
+Iteration   5: 548.448 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  538.067 ±(99.9%) 34.844 ms/op [Average]
+  (min, avg, max) = (503.833, 538.067, 573.046), stdev = 23.047
+  CI (99.9%): [503.223, 572.911] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 3)
+
+# Run progress: 55.00% complete, ETA 00:44:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 385.202 ms/op
+# Warmup Iteration   2: 659.672 ms/op
+Iteration   1: 656.924 ms/op
+Iteration   2: 667.358 ms/op
+Iteration   3: 638.994 ms/op
+Iteration   4: 653.796 ms/op
+Iteration   5: 652.231 ms/op
+
+# Run progress: 56.25% complete, ETA 00:42:47
+# Fork: 2 of 2
+# Warmup Iteration   1: 374.688 ms/op
+# Warmup Iteration   2: 639.095 ms/op
+Iteration   1: 658.323 ms/op
+Iteration   2: 664.741 ms/op
+Iteration   3: 659.170 ms/op
+Iteration   4: 657.828 ms/op
+Iteration   5: 600.426 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  650.979 ±(99.9%) 29.254 ms/op [Average]
+  (min, avg, max) = (600.426, 650.979, 667.358), stdev = 19.350
+  CI (99.9%): [621.725, 680.233] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 4)
+
+# Run progress: 57.50% complete, ETA 00:41:33
+# Fork: 1 of 2
+# Warmup Iteration   1: 427.642 ms/op
+# Warmup Iteration   2: 708.780 ms/op
+Iteration   1: 805.292 ms/op
+Iteration   2: 715.891 ms/op
+Iteration   3: 834.155 ms/op
+Iteration   4: 792.332 ms/op
+Iteration   5: 787.004 ms/op
+
+# Run progress: 58.75% complete, ETA 00:40:20
+# Fork: 2 of 2
+# Warmup Iteration   1: 408.643 ms/op
+# Warmup Iteration   2: 759.230 ms/op
+Iteration   1: 819.176 ms/op
+Iteration   2: 809.924 ms/op
+Iteration   3: 780.395 ms/op
+Iteration   4: 784.876 ms/op
+Iteration   5: 771.821 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  790.087 ±(99.9%) 48.827 ms/op [Average]
+  (min, avg, max) = (715.891, 790.087, 834.155), stdev = 32.296
+  CI (99.9%): [741.260, 838.913] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 5)
+
+# Run progress: 60.00% complete, ETA 00:39:06
+# Fork: 1 of 2
+# Warmup Iteration   1: 490.935 ms/op
+# Warmup Iteration   2: 900.571 ms/op
+Iteration   1: 856.139 ms/op
+Iteration   2: 789.080 ms/op
+Iteration   3: 788.255 ms/op
+Iteration   4: 741.943 ms/op
+Iteration   5: 811.705 ms/op
+
+# Run progress: 61.25% complete, ETA 00:37:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 475.962 ms/op
+# Warmup Iteration   2: 841.093 ms/op
+Iteration   1: 510.501 ms/op
+Iteration   2: 417.344 ms/op
+Iteration   3: 428.690 ms/op
+Iteration   4: 422.123 ms/op
+Iteration   5: 410.954 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  617.673 ±(99.9%) 292.440 ms/op [Average]
+  (min, avg, max) = (410.954, 617.673, 856.139), stdev = 193.431
+  CI (99.9%): [325.233, 910.114] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 6)
+
+# Run progress: 62.50% complete, ETA 00:36:39
+# Fork: 1 of 2
+# Warmup Iteration   1: 488.052 ms/op
+# Warmup Iteration   2: 471.170 ms/op
+Iteration   1: 476.401 ms/op
+Iteration   2: 472.926 ms/op
+Iteration   3: 474.637 ms/op
+Iteration   4: 474.306 ms/op
+Iteration   5: 478.160 ms/op
+
+# Run progress: 63.75% complete, ETA 00:35:25
+# Fork: 2 of 2
+# Warmup Iteration   1: 489.981 ms/op
+# Warmup Iteration   2: 479.107 ms/op
+Iteration   1: 486.421 ms/op
+Iteration   2: 484.023 ms/op
+Iteration   3: 481.871 ms/op
+Iteration   4: 471.416 ms/op
+Iteration   5: 471.070 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  477.123 ±(99.9%) 8.113 ms/op [Average]
+  (min, avg, max) = (471.070, 477.123, 486.421), stdev = 5.366
+  CI (99.9%): [469.010, 485.236] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 7)
+
+# Run progress: 65.00% complete, ETA 00:34:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 546.898 ms/op
+# Warmup Iteration   2: 542.937 ms/op
+Iteration   1: 543.307 ms/op
+Iteration   2: 550.564 ms/op
+Iteration   3: 540.038 ms/op
+Iteration   4: 539.399 ms/op
+Iteration   5: 543.992 ms/op
+
+# Run progress: 66.25% complete, ETA 00:32:57
+# Fork: 2 of 2
+# Warmup Iteration   1: 567.131 ms/op
+# Warmup Iteration   2: 550.684 ms/op
+Iteration   1: 546.738 ms/op
+Iteration   2: 553.213 ms/op
+Iteration   3: 545.420 ms/op
+Iteration   4: 557.740 ms/op
+Iteration   5: 555.901 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  547.631 ±(99.9%) 9.738 ms/op [Average]
+  (min, avg, max) = (539.399, 547.631, 557.740), stdev = 6.441
+  CI (99.9%): [537.893, 557.369] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 8)
+
+# Run progress: 67.50% complete, ETA 00:31:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 634.948 ms/op
+# Warmup Iteration   2: 625.098 ms/op
+Iteration   1: 619.342 ms/op
+Iteration   2: 618.287 ms/op
+Iteration   3: 617.130 ms/op
+Iteration   4: 619.698 ms/op
+Iteration   5: 608.470 ms/op
+
+# Run progress: 68.75% complete, ETA 00:30:31
+# Fork: 2 of 2
+# Warmup Iteration   1: 618.414 ms/op
+# Warmup Iteration   2: 609.804 ms/op
+Iteration   1: 611.724 ms/op
+Iteration   2: 619.180 ms/op
+Iteration   3: 624.076 ms/op
+Iteration   4: 620.675 ms/op
+Iteration   5: 627.819 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  618.640 ±(99.9%) 8.334 ms/op [Average]
+  (min, avg, max) = (608.470, 618.640, 627.819), stdev = 5.513
+  CI (99.9%): [610.306, 626.974] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 9)
+
+# Run progress: 70.00% complete, ETA 00:29:18
+# Fork: 1 of 2
+# Warmup Iteration   1: 709.965 ms/op
+# Warmup Iteration   2: 689.862 ms/op
+Iteration   1: 687.642 ms/op
+Iteration   2: 687.980 ms/op
+Iteration   3: 698.500 ms/op
+Iteration   4: 688.581 ms/op
+Iteration   5: 691.723 ms/op
+
+# Run progress: 71.25% complete, ETA 00:28:04
+# Fork: 2 of 2
+# Warmup Iteration   1: 701.810 ms/op
+# Warmup Iteration   2: 682.638 ms/op
+Iteration   1: 673.010 ms/op
+Iteration   2: 664.080 ms/op
+Iteration   3: 659.960 ms/op
+Iteration   4: 720.228 ms/op
+Iteration   5: 679.408 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  685.111 ±(99.9%) 26.363 ms/op [Average]
+  (min, avg, max) = (659.960, 685.111, 720.228), stdev = 17.438
+  CI (99.9%): [658.748, 711.475] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 10)
+
+# Run progress: 72.50% complete, ETA 00:26:51
+# Fork: 1 of 2
+# Warmup Iteration   1: 761.947 ms/op
+# Warmup Iteration   2: 739.899 ms/op
+Iteration   1: 728.390 ms/op
+Iteration   2: 724.403 ms/op
+Iteration   3: 726.745 ms/op
+Iteration   4: 735.724 ms/op
+Iteration   5: 874.437 ms/op
+
+# Run progress: 73.75% complete, ETA 00:25:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 813.526 ms/op
+# Warmup Iteration   2: 772.059 ms/op
+Iteration   1: 726.963 ms/op
+Iteration   2: 723.243 ms/op
+Iteration   3: 728.644 ms/op
+Iteration   4: 724.562 ms/op
+Iteration   5: 743.786 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  743.690 ±(99.9%) 70.087 ms/op [Average]
+  (min, avg, max) = (723.243, 743.690, 874.437), stdev = 46.358
+  CI (99.9%): [673.603, 813.777] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 11)
+
+# Run progress: 75.00% complete, ETA 00:24:24
+# Fork: 1 of 2
+# Warmup Iteration   1: 809.556 ms/op
+# Warmup Iteration   2: 792.156 ms/op
+Iteration   1: 797.300 ms/op
+Iteration   2: 815.299 ms/op
+Iteration   3: 801.874 ms/op
+Iteration   4: 798.745 ms/op
+Iteration   5: 795.908 ms/op
+
+# Run progress: 76.25% complete, ETA 00:23:11
+# Fork: 2 of 2
+# Warmup Iteration   1: 815.689 ms/op
+# Warmup Iteration   2: 826.540 ms/op
+Iteration   1: 807.489 ms/op
+Iteration   2: 804.904 ms/op
+Iteration   3: 791.521 ms/op
+Iteration   4: 788.563 ms/op
+Iteration   5: 791.341 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  799.295 ±(99.9%) 12.508 ms/op [Average]
+  (min, avg, max) = (788.563, 799.295, 815.299), stdev = 8.273
+  CI (99.9%): [786.787, 811.802] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 12)
+
+# Run progress: 77.50% complete, ETA 00:21:57
+# Fork: 1 of 2
+# Warmup Iteration   1: 875.719 ms/op
+# Warmup Iteration   2: 862.879 ms/op
+Iteration   1: 857.721 ms/op
+Iteration   2: 863.606 ms/op
+Iteration   3: 873.091 ms/op
+Iteration   4: 872.519 ms/op
+Iteration   5: 880.731 ms/op
+
+# Run progress: 78.75% complete, ETA 00:20:44
+# Fork: 2 of 2
+# Warmup Iteration   1: 906.152 ms/op
+# Warmup Iteration   2: 887.446 ms/op
+Iteration   1: 895.789 ms/op
+Iteration   2: 881.301 ms/op
+Iteration   3: 896.094 ms/op
+Iteration   4: 915.918 ms/op
+Iteration   5: 890.490 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  882.726 ±(99.9%) 26.211 ms/op [Average]
+  (min, avg, max) = (857.721, 882.726, 915.918), stdev = 17.337
+  CI (99.9%): [856.515, 908.937] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 13)
+
+# Run progress: 80.00% complete, ETA 00:19:31
+# Fork: 1 of 2
+# Warmup Iteration   1: 965.777 ms/op
+# Warmup Iteration   2: 943.115 ms/op
+Iteration   1: 940.504 ms/op
+Iteration   2: 943.692 ms/op
+Iteration   3: 943.723 ms/op
+Iteration   4: 941.243 ms/op
+Iteration   5: 936.691 ms/op
+
+# Run progress: 81.25% complete, ETA 00:18:18
+# Fork: 2 of 2
+# Warmup Iteration   1: 967.999 ms/op
+# Warmup Iteration   2: 948.654 ms/op
+Iteration   1: 947.031 ms/op
+Iteration   2: 950.186 ms/op
+Iteration   3: 946.570 ms/op
+Iteration   4: 965.676 ms/op
+Iteration   5: 936.816 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  945.213 ±(99.9%) 12.691 ms/op [Average]
+  (min, avg, max) = (936.691, 945.213, 965.676), stdev = 8.395
+  CI (99.9%): [932.522, 957.905] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 14)
+
+# Run progress: 82.50% complete, ETA 00:17:05
+# Fork: 1 of 2
+# Warmup Iteration   1: 1034.957 ms/op
+# Warmup Iteration   2: 1037.772 ms/op
+Iteration   1: 1027.362 ms/op
+Iteration   2: 1022.740 ms/op
+Iteration   3: 1008.758 ms/op
+Iteration   4: 1002.297 ms/op
+Iteration   5: 1015.963 ms/op
+
+# Run progress: 83.75% complete, ETA 00:15:51
+# Fork: 2 of 2
+# Warmup Iteration   1: 1054.141 ms/op
+# Warmup Iteration   2: 1028.097 ms/op
+Iteration   1: 1015.067 ms/op
+Iteration   2: 1045.914 ms/op
+Iteration   3: 971.784 ms/op
+Iteration   4: 964.275 ms/op
+Iteration   5: 965.805 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1003.996 ±(99.9%) 42.223 ms/op [Average]
+  (min, avg, max) = (964.275, 1003.996, 1045.914), stdev = 27.928
+  CI (99.9%): [961.774, 1046.219] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 15)
+
+# Run progress: 85.00% complete, ETA 00:14:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 1054.280 ms/op
+# Warmup Iteration   2: 1014.805 ms/op
+Iteration   1: 1008.535 ms/op
+Iteration   2: 1112.061 ms/op
+Iteration   3: 1104.460 ms/op
+Iteration   4: 1045.101 ms/op
+Iteration   5: 1041.426 ms/op
+
+# Run progress: 86.25% complete, ETA 00:13:25
+# Fork: 2 of 2
+# Warmup Iteration   1: 1070.455 ms/op
+# Warmup Iteration   2: 1029.620 ms/op
+Iteration   1: 1046.706 ms/op
+Iteration   2: 1035.832 ms/op
+Iteration   3: 1075.878 ms/op
+Iteration   4: 1192.177 ms/op
+Iteration   5: 1327.334 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1098.951 ±(99.9%) 144.909 ms/op [Average]
+  (min, avg, max) = (1008.535, 1098.951, 1327.334), stdev = 95.848
+  CI (99.9%): [954.042, 1243.860] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 16)
+
+# Run progress: 87.50% complete, ETA 00:12:12
+# Fork: 1 of 2
+# Warmup Iteration   1: 1240.215 ms/op
+# Warmup Iteration   2: 1309.725 ms/op
+Iteration   1: 1349.695 ms/op
+Iteration   2: 1400.321 ms/op
+Iteration   3: 1884.540 ms/op
+Iteration   4: 1804.069 ms/op
+Iteration   5: 1352.343 ms/op
+
+# Run progress: 88.75% complete, ETA 00:10:59
+# Fork: 2 of 2
+# Warmup Iteration   1: 1171.228 ms/op
+# Warmup Iteration   2: 1145.713 ms/op
+Iteration   1: 1120.188 ms/op
+Iteration   2: 1102.707 ms/op
+Iteration   3: 1102.663 ms/op
+Iteration   4: 1121.935 ms/op
+Iteration   5: 1120.666 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1335.913 ±(99.9%) 442.852 ms/op [Average]
+  (min, avg, max) = (1102.663, 1335.913, 1884.540), stdev = 292.919
+  CI (99.9%): [893.061, 1778.765] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 17)
+
+# Run progress: 90.00% complete, ETA 00:09:46
+# Fork: 1 of 2
+# Warmup Iteration   1: 1219.527 ms/op
+# Warmup Iteration   2: 1188.007 ms/op
+Iteration   1: 1174.476 ms/op
+Iteration   2: 1182.635 ms/op
+Iteration   3: 1180.527 ms/op
+Iteration   4: 1182.191 ms/op
+Iteration   5: 1176.764 ms/op
+
+# Run progress: 91.25% complete, ETA 00:08:33
+# Fork: 2 of 2
+# Warmup Iteration   1: 1202.642 ms/op
+# Warmup Iteration   2: 1177.090 ms/op
+Iteration   1: 1187.167 ms/op
+Iteration   2: 1177.834 ms/op
+Iteration   3: 1200.781 ms/op
+Iteration   4: 1175.501 ms/op
+Iteration   5: 1199.951 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1183.783 ±(99.9%) 14.397 ms/op [Average]
+  (min, avg, max) = (1174.476, 1183.783, 1200.781), stdev = 9.522
+  CI (99.9%): [1169.386, 1198.179] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 18)
+
+# Run progress: 92.50% complete, ETA 00:07:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 1304.113 ms/op
+# Warmup Iteration   2: 1270.434 ms/op
+Iteration   1: 1274.532 ms/op
+Iteration   2: 1294.161 ms/op
+Iteration   3: 1252.828 ms/op
+Iteration   4: 1243.273 ms/op
+Iteration   5: 1246.375 ms/op
+
+# Run progress: 93.75% complete, ETA 00:06:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 1301.628 ms/op
+# Warmup Iteration   2: 1270.856 ms/op
+Iteration   1: 1279.559 ms/op
+Iteration   2: 1272.747 ms/op
+Iteration   3: 1263.565 ms/op
+Iteration   4: 1268.172 ms/op
+Iteration   5: 1273.810 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1266.902 ±(99.9%) 23.819 ms/op [Average]
+  (min, avg, max) = (1243.273, 1266.902, 1294.161), stdev = 15.755
+  CI (99.9%): [1243.083, 1290.721] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 19)
+
+# Run progress: 95.00% complete, ETA 00:04:53
+# Fork: 1 of 2
+# Warmup Iteration   1: 1383.107 ms/op
+# Warmup Iteration   2: 1348.307 ms/op
+Iteration   1: 1335.708 ms/op
+Iteration   2: 1322.727 ms/op
+Iteration   3: 1333.316 ms/op
+Iteration   4: 1329.381 ms/op
+Iteration   5: 1329.264 ms/op
+
+# Run progress: 96.25% complete, ETA 00:03:40
+# Fork: 2 of 2
+# Warmup Iteration   1: 1386.587 ms/op
+# Warmup Iteration   2: 1330.613 ms/op
+Iteration   1: 1330.408 ms/op
+Iteration   2: 1346.122 ms/op
+Iteration   3: 1331.451 ms/op
+Iteration   4: 1317.131 ms/op
+Iteration   5: 1311.947 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1328.745 ±(99.9%) 14.566 ms/op [Average]
+  (min, avg, max) = (1311.947, 1328.745, 1346.122), stdev = 9.634
+  CI (99.9%): [1314.180, 1343.311] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.2, OpenJDK 64-Bit Server VM, 19.0.2+7-44
+# VM invoker: C:\Users\13102\.jdks\openjdk-19.0.2-2\bin\java.exe
+# VM options: -Xms2G -Xmx2G
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test2.GameOfLifeBenchmark.runGame
+# Parameters: (n = 20)
+
+# Run progress: 97.50% complete, ETA 00:02:26
+# Fork: 1 of 2
+# Warmup Iteration   1: 1473.933 ms/op
+# Warmup Iteration   2: 1422.135 ms/op
+Iteration   1: 1410.880 ms/op
+Iteration   2: 1426.001 ms/op
+Iteration   3: 1409.928 ms/op
+Iteration   4: 1398.524 ms/op
+Iteration   5: 1454.286 ms/op
+
+# Run progress: 98.75% complete, ETA 00:01:13
+# Fork: 2 of 2
+# Warmup Iteration   1: 1379.752 ms/op
+# Warmup Iteration   2: 1354.453 ms/op
+Iteration   1: 1350.524 ms/op
+Iteration   2: 1331.479 ms/op
+Iteration   3: 1319.864 ms/op
+Iteration   4: 1329.385 ms/op
+Iteration   5: 1502.302 ms/op
+
+
+Result "test2.GameOfLifeBenchmark.runGame":
+  1393.317 ±(99.9%) 90.729 ms/op [Average]
+  (min, avg, max) = (1319.864, 1393.317, 1502.302), stdev = 60.011
+  CI (99.9%): [1302.589, 1484.046] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:37:56
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                    (n)   Mode  Cnt     Score     Error   Units
+GameOfLifeBenchmark.runGame    1  thrpt   10     0.003 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    2  thrpt   10     0.003 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    3  thrpt   10     0.003 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    4  thrpt   10     0.003 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    5  thrpt   10     0.002 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    6  thrpt   10     0.002 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    7  thrpt   10     0.002 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    8  thrpt   10     0.002 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    9  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   10  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   11  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   12  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   13  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   14  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   15  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   16  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   17  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   18  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   19  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame   20  thrpt   10     0.001 ±   0.001  ops/ms
+GameOfLifeBenchmark.runGame    1   avgt   10   246.284 ±  14.338   ms/op
+GameOfLifeBenchmark.runGame    2   avgt   10   538.067 ±  34.844   ms/op
+GameOfLifeBenchmark.runGame    3   avgt   10   650.979 ±  29.254   ms/op
+GameOfLifeBenchmark.runGame    4   avgt   10   790.087 ±  48.827   ms/op
+GameOfLifeBenchmark.runGame    5   avgt   10   617.673 ± 292.440   ms/op
+GameOfLifeBenchmark.runGame    6   avgt   10   477.123 ±   8.113   ms/op
+GameOfLifeBenchmark.runGame    7   avgt   10   547.631 ±   9.738   ms/op
+GameOfLifeBenchmark.runGame    8   avgt   10   618.640 ±   8.334   ms/op
+GameOfLifeBenchmark.runGame    9   avgt   10   685.111 ±  26.363   ms/op
+GameOfLifeBenchmark.runGame   10   avgt   10   743.690 ±  70.087   ms/op
+GameOfLifeBenchmark.runGame   11   avgt   10   799.295 ±  12.508   ms/op
+GameOfLifeBenchmark.runGame   12   avgt   10   882.726 ±  26.211   ms/op
+GameOfLifeBenchmark.runGame   13   avgt   10   945.213 ±  12.691   ms/op
+GameOfLifeBenchmark.runGame   14   avgt   10  1003.996 ±  42.223   ms/op
+GameOfLifeBenchmark.runGame   15   avgt   10  1098.951 ± 144.909   ms/op
+GameOfLifeBenchmark.runGame   16   avgt   10  1335.913 ± 442.852   ms/op
+GameOfLifeBenchmark.runGame   17   avgt   10  1183.783 ±  14.397   ms/op
+GameOfLifeBenchmark.runGame   18   avgt   10  1266.902 ±  23.819   ms/op
+GameOfLifeBenchmark.runGame   19   avgt   10  1328.745 ±  14.566   ms/op
+GameOfLifeBenchmark.runGame   20   avgt   10  1393.317 ±  90.729   ms/op
+
